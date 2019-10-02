@@ -1,1 +1,11 @@
+/* debug */
 
+[class*="col-"] {
+  border: 1px solid black;
+}
+
+/* INTRO: #0248ff */
+
+#intro {
+  background: #0248ff;
+}
