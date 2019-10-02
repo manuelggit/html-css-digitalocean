@@ -4,8 +4,25 @@
   border: 1px solid black;
 }
 
+body {
+  text-align: center;
+}
+
+/* note:
+grigio: #f3f6f9
+blu: #0248ff
+blu scuro: #031b4e */
+
 /* INTRO: #0248ff */
 
-#intro {
+#intro, #started {
   background: #0248ff;
+}
+
+#loghi, #teams, #designed {
+  background: #f3f6f9;
+}
+
+#service, footer {
+  background: #031b4e;
 }
