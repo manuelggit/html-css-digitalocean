@@ -173,3 +173,31 @@ input {
   color: #5b6987;
   margin: 10px 0;
 }
+
+.tasto-G {
+  width: 90%;
+  padding: 4%;
+  border: 1px solid #5b6987;
+  border-radius: 4px;
+  margin-top: 10%;
+  margin-right: 10%;
+  background: #f3f6f9;
+}
+
+.GitHub {
+  margin-left: 10%;
+}
+
+.tasto-G a {
+  text-decoration: none;
+  color: #031b4e;
+}
+
+.text-tasto-G {
+  text-align: left;
+}
+
+#form-termsofservice {
+  margin: 10% 0;
+  font-size: 0.8em;
+}
