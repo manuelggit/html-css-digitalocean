@@ -52,12 +52,23 @@ testo grigio: #5b6987 */
 
 /* NAVBAR 1 */
 
-.margin1 {
-  margin: 0 1%;
+#nav-1 {
+  font-size: 0.8em;
+  padding: 0.5% 2%;
+  margin-top: 0.5%;
+  border-bottom: 1px solid #f3f6f9;
 }
 
 .new {
+  font-size: 0.7em;
   background: #00d7d2;
+  padding: 1%;
+  border-radius: 20%;
+}
+
+.now-available {
+  text-align: left;
+  padding-left: 2%;
 }
 
 .now-available a, .nav1dx a {
@@ -67,21 +78,15 @@ testo grigio: #5b6987 */
 
 /* NAVBAR 2 */
 
-.signup a {
+#nav-2 {
+  padding: 0.5% 2%;
+  margin: 1% 0;
+}
+
+.signup a { /* come lo metto a destra? */
   color: #0248ff;
   text-decoration: none;
   border: 1px solid #0248ff;
-}
-
-/* INTRO */
-
-#nav-1 {
-  font-size: 0.8em;
-  margin-top: 1%;
-}
-
-.new {
-  font-size: 0.7em;
-  padding: 1%;
-  border-radius: 20%;
+  border-radius: 7px;
+  padding: 4% 8%;
 }
