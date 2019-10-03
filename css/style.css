@@ -18,7 +18,7 @@ testo grigio: #5b6987 */
 
 /* colori delle sezioni e del testo */
 
-#intro, #started {
+header, #started {
   background: #0248ff;
 }
 
@@ -30,7 +30,7 @@ testo grigio: #5b6987 */
   background: #031b4e;
 }
 
-#started a {
+#started a, #dx-intro {
   background: #ffffff;
 }
 
@@ -48,6 +48,16 @@ testo grigio: #5b6987 */
 
 .singup, #loghi a, #features a, #started a {
   color: #0248ff
+}
+
+/* grandezza font */
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
 }
 
 /* NAVBAR 1 */
@@ -89,4 +99,38 @@ testo grigio: #5b6987 */
   border: 1px solid #0248ff;
   border-radius: 7px;
   padding: 4% 8%;
+}
+
+/* INTRO */
+
+  /* intro sx */
+
+#intro {
+  width: 90%;
+  margin: auto;
+  padding: 7% 0;
+}
+
+#sx-intro {
+  text-align: left;
+  padding: 4% 0;
+}
+
+#sx-intro p {
+  font-size: 2em;
+  opacity: 0.7;
+}
+
+.titolo-intro {
+  padding: 6% 0;
+}
+
+  /* intro dx */
+
+#dx-intro {
+  border-radius: 10px;
+}
+
+#dx-intro h2 {
+  padding: 7% 0;
 }
