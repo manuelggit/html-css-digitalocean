@@ -15,7 +15,7 @@ blu scuro: #031b4e
 verde acqua: #00d7d2
 testo grigio: #5b6987 */
 
-/* colori delle sezioni */
+/* colori delle sezioni e del testo */
 
 #intro, #started {
   background: #0248ff;
@@ -27,6 +27,26 @@ testo grigio: #5b6987 */
 
 #service, footer {
   background: #031b4e;
+}
+
+#started a {
+  background: #ffffff;
+}
+
+#sx-intro, #title-service, #service, #call-to-action, .title-footer  {
+  color: #ffffff;
+}
+
+#form-termsofservice, #title-loghi, #deploy, #designed, #features, #teams, footer {
+  color: #5b6987;
+}
+
+#nav-2, #dx-intro h2, #deploy h2, #deploy h3, #designed h2, #features h2, #features h3, #teams h2 {
+  color: #031b4e;
+}
+
+.singup, #loghi a, #features a, #started a {
+  color: #0248ff
 }
 
 /* NAVBAR 1 */
@@ -53,7 +73,3 @@ testo grigio: #5b6987 */
 }
 
 /* INTRO */
-
-.text-white {
-  color: #ffffff;
-}
