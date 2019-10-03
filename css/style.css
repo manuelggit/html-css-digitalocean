@@ -132,5 +132,32 @@ h2 {
 }
 
 #dx-intro h2 {
-  padding: 7% 0;
+  padding: 7% 5%;
+}
+
+input {
+  padding: 3px;
+  font-size: 1em;
+  color: #5b6987;
+}
+
+#dx-intro > .row {
+  width: 90%;
+  margin: auto;
+}
+
+#dx-intro input {
+  width: 100%;
+  padding: 2%;
+  border-radius: 4px; /* perchè sembra 3d? */
+  margin-bottom: 4%;
+}
+
+.create-your-account {
+  width: 100%;
+  padding: 2%;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  background: #0248ff;
+  color: #ffffff;
 }
