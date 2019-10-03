@@ -6,6 +6,7 @@
 
 body {
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 /* note:
@@ -73,3 +74,14 @@ testo grigio: #5b6987 */
 }
 
 /* INTRO */
+
+#nav-1 {
+  font-size: 0.8em;
+  margin-top: 1%;
+}
+
+.new {
+  font-size: 0.7em;
+  padding: 1%;
+  border-radius: 20%;
+}
