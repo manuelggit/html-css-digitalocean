@@ -38,7 +38,7 @@ header, #started {
   color: #ffffff;
 }
 
-#form-termsofservice, #title-loghi, #deploy, #designed, #features, #teams, footer {
+.sotto-form, #form-termsofservice, #title-loghi, #deploy, #designed, #features, #teams, footer {
   color: #5b6987;
 }
 
@@ -66,7 +66,7 @@ h2 {
   font-size: 0.8em;
   padding: 0.5% 2%;
   margin-top: 0.5%;
-  border-bottom: 1px solid #f3f6f9;
+  border-bottom: 1px solid #5b6987;
 }
 
 .new {
@@ -90,10 +90,14 @@ h2 {
 
 #nav-2 {
   padding: 0.5% 2%;
-  margin: 1% 0;
+  margin: 1% 1%;
 }
 
-.signup a { /* come lo metto a destra? */
+.signup {
+  text-align: right;
+}
+
+.signup a {
   color: #0248ff;
   text-decoration: none;
   border: 1px solid #0248ff;
@@ -160,4 +164,12 @@ input {
   margin-bottom: 4%;
   background: #0248ff;
   color: #ffffff;
+}
+
+.rigagrigia {
+  height: 1px;
+  background: #5b6987;
+  display: inline-block;
+  color: #5b6987;
+  margin: 10px 0;
 }
