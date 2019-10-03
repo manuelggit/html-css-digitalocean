@@ -1,7 +1,7 @@
 /* debug */
 
 [class*="col-"] {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 body {
@@ -11,9 +11,11 @@ body {
 /* note:
 grigio: #f3f6f9
 blu: #0248ff
-blu scuro: #031b4e */
+blu scuro: #031b4e
+verde acqua: #00d7d2
+testo grigio: #5b6987 */
 
-/* INTRO: #0248ff */
+/* colori delle sezioni */
 
 #intro, #started {
   background: #0248ff;
@@ -25,4 +27,33 @@ blu scuro: #031b4e */
 
 #service, footer {
   background: #031b4e;
+}
+
+/* NAVBAR 1 */
+
+.margin1 {
+  margin: 0 1%;
+}
+
+.new {
+  background: #00d7d2;
+}
+
+.now-available a, .nav1dx a {
+  color: #5b6987;
+  text-decoration: none;
+}
+
+/* NAVBAR 2 */
+
+.signup a {
+  color: #0248ff;
+  text-decoration: none;
+  border: 1px solid #0248ff;
+}
+
+/* INTRO */
+
+.text-white {
+  color: #ffffff;
 }
