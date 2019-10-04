@@ -292,3 +292,22 @@ input {
 #main-deploy .row {
   padding-bottom: 30%;
 }
+
+/* DESIGNED */
+
+#designed .container {
+  width: 70%;
+  margin: auto;
+}
+
+#fig-designed img {
+  width: 80%;
+  margin: auto;
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+figcaption {
+  width: 60%;
+  margin: auto;
+}
