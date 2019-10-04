@@ -235,3 +235,12 @@ input {
   padding-top: 10%;
   padding-bottom: 3%;
 }
+
+#deploy p, #designed p, #features p, #service p, #teams p {
+  font-size: 1.4em;
+}
+
+#deploy p {
+  width: 90%;
+  margin: auto;
+}
