@@ -232,12 +232,17 @@ input {
 /* DEPLOY */
 
 #deploy h2, #designed h2, #features h2, #service h2, #teams h2 {
-  padding-top: 10%;
+  /* padding-top: 10%; */
   padding-bottom: 3%;
 }
 
 #deploy p, #designed p, #features p, #service p, #teams p {
   font-size: 1.4em;
+}
+
+#deploy, #designed, #features, #service, #teams {
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 #deploy p {
@@ -281,4 +286,9 @@ input {
 #main-deploy p {
   font-size: 1.2em;
   width: 100%;
+  padding-right: 3%;
+}
+
+#main-deploy .row {
+  padding-bottom: 30%;
 }
