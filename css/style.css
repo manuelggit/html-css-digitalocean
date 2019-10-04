@@ -245,6 +245,8 @@ input {
   margin: auto;
 }
 
+  /* main-deploy */
+
 #deploy ul {
   list-style-type: none;
   text-align: left;
@@ -263,9 +265,20 @@ input {
 
 #main-deploy {
   padding-top: 5%;
+  text-align: left;
+  width: 70%;
+  margin: auto;
 }
 
 #main-deploy nav {
   border-left: 1px solid #5b6987;
-  margin-left: 40%;
+}
+
+#main-deploy h3 {
+  padding: 4% 0;
+}
+
+#main-deploy p {
+  font-size: 1.2em;
+  width: 100%;
 }
