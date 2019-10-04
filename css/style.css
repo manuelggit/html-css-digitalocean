@@ -201,3 +201,30 @@ input {
   margin: 10% 0;
   font-size: 0.8em;
 }
+
+/* LOGHI */
+
+#loghi .container {
+  width: 90%;
+  margin: auto;
+}
+
+#loghi #title-loghi {
+  padding-top: 3%;
+}
+
+#loghi #link-loghi {
+  padding-bottom: 3%;
+}
+
+#loghi img {
+  width: 70%;
+  height: auto;
+}
+
+#loghi li {
+  display: inline-block;
+  list-style-type: none;
+  width: calc((100%/6) - 4px);
+  vertical-align: middle;
+}
