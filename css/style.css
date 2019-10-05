@@ -60,6 +60,10 @@ h2 {
   font-size: 2.5em;
 }
 
+h3 {
+  font-size: 1.2em;
+}
+
 /* NAVBAR 1 */
 
 #nav-1 {
@@ -310,4 +314,58 @@ input {
 figcaption {
   width: 60%;
   margin: auto;
+}
+
+/* FEATURES */
+
+#features .col-lg-3 {
+  text-align: left;
+  padding: 0 3%;
+}
+
+#features h3 {
+  padding-top: 4%;
+}
+
+#features p {
+  font-size: 1.2em;
+  margin: 8% 0;
+  text-decoration: none;
+}
+
+#features a {
+  text-decoration: none;
+}
+
+/* SERVICE */
+
+#title-service {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+#paesi-service {
+  width: 94%;
+  margin: auto;
+}
+
+#paesi-service .paesi-row {
+  border-bottom: 1px solid #5b6987;
+  width: 96%;
+  margin: auto;
+  padding: 2% 0;
+}
+
+#service p {
+  font-size: 0.8em;
+}
+
+#service .paese {
+  color: #5b6987;
+}
+
+#service a {
+  color: #00d7d2;
+  text-decoration: none;
 }
