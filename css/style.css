@@ -369,3 +369,26 @@ figcaption {
   color: #00d7d2;
   text-decoration: none;
 }
+
+/* TEAMS */
+
+/* STARTED */
+
+#call-to-action {
+  font-size: 2em;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+#started a {
+  text-decoration: none;
+  padding: 1% 4%;
+  border-radius: 5%;
+}
+
+#starded p {
+  width: 100%;
+}
+
+#fake-button-started {
+  padding-bottom: 3%;
