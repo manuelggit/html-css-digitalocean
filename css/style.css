@@ -1,8 +1,31 @@
-/* debug */
+@media screen and (max-width:767px) {
 
-[class*="col-"] {
-  /* border: 1px solid black; */
+  #main-deploy .container {
+    width: 96%;
+    margin: auto;
+  }
+
+  #designed .container {
+    width: 96%;
+    margin: auto;
+  }
+
 }
+
+@media screen and (max-width:991px) {
+
+  #nav-1 {
+    display: none;
+  }
+
+  #nav-2 {
+    background-color: #0248ff;
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
 
 body {
   text-align: center;
